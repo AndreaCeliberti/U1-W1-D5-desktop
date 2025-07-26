@@ -1,0 +1,236 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.5;
+}
+body {
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background-color: black;
+  text-align: center;
+  height: 9em;
+}
+.logoepic {
+  padding-top: 3em;
+  text-align: left;
+  padding-left: 2em;
+}
+main {
+}
+header div img {
+  height: 3rem;
+}
+
+nav {
+  background-image: url(/images/banner.jpg);
+  background-position: center;
+  background-size: 100%;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+nav h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  color: #25a2c3;
+  line-height: 1;
+}
+nav p {
+  font-size: 1.3em;
+  padding-inline: 3em;
+  line-height: 1.5;
+}
+nav button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #fb4d2f;
+  margin-top: 2em;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+  padding: 1em;
+  padding-inline: 2em;
+}
+main div img {
+  border-radius: 50%;
+}
+main div h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  color: #25a2c3;
+  line-height: 1;
+  padding-top: 2em;
+}
+main div p {
+  font-size: 1.3em;
+  padding-inline: 3em;
+  line-height: 1.5;
+  padding-bottom: 1.5em;
+}
+section {
+  background-color: #d8381c;
+  height: 25em;
+  color: white;
+}
+section h3 {
+  font-size: 2.7em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  color: #ffffff;
+  line-height: 1;
+  padding-top: 1.8em;
+}
+.comment {
+  color: #ffffff;
+  font-size: 1.4em;
+  line-height: 1.5;
+  padding-top: 2em;
+  font-style: italic;
+}
+.mario {
+  font-size: 2em;
+  color: #ffffff;
+  line-height: 1;
+  padding-top: 2em;
+}
+.ceo {
+  margin-bottom: 1.5em;
+}
+article {
+  align-items: center;
+}
+.box1 img {
+  width: 450px;
+  height: 350px;
+  margin-top: 2em;
+}
+.box2 {
+  width: 450px;
+  height: 150px;
+  border: 1px solid;
+  border-color: #e1e1e1;
+  margin-inline: auto;
+  margin-top: -10px;
+  border-radius: 4px;
+  margin-bottom: 2em;
+  box-shadow: 0px 0.5px #e1e1e1;
+}
+.box2 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  color: #25a2c3;
+  line-height: 1;
+  padding-top: 2em;
+}
+.box2 p {
+  font-size: 1em;
+  padding-inline: 3em;
+  line-height: 1.5;
+  padding-bottom: 1.5em;
+}
+.box3 img {
+  width: 450px;
+  height: 350px;
+  margin-top: 2em;
+}
+.box4 {
+  width: 450px;
+  height: 150px;
+  border: 1px solid;
+  border-color: #e1e1e1;
+  margin-inline: auto;
+  margin-top: -10px;
+  border-radius: 4px;
+  margin-bottom: 2em;
+  box-shadow: 0px 0.5px #e1e1e1;
+}
+.box4 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  color: #25a2c3;
+  line-height: 1;
+  padding-top: 2em;
+}
+.box4 p {
+  font-size: 1em;
+  padding-inline: 3em;
+  line-height: 1.5;
+  padding-bottom: 1.5em;
+}
+.box5 img {
+  width: 450px;
+  height: 350px;
+  margin-top: 2em;
+}
+.box6 {
+  width: 450px;
+  height: 150px;
+  border: 1px solid;
+  border-color: #e1e1e1;
+  margin-inline: auto;
+  margin-top: -10px;
+  border-radius: 4px;
+  margin-bottom: 2em;
+  box-shadow: 0px 0.5px #e1e1e1;
+}
+.box6 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  color: #25a2c3;
+  line-height: 1;
+  padding-top: 2em;
+}
+.box6 p {
+  font-size: 1em;
+  padding-inline: 3em;
+  line-height: 1.5;
+  padding-bottom: 1.5em;
+}
+footer {
+  height: 350px;
+  background-color: #26a6cb;
+  color: white;
+}
+address h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  line-height: 1;
+  padding-top: 2em;
+}
+address p {
+  font-size: 1em;
+  padding-inline: 3em;
+  line-height: 1.5;
+  padding-bottom: 1.5em;
+}
+address p i {
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+footer div {
+  margin-inline: auto;
+  background-color: white;
+  height: 1px;
+  width: 200px;
+  margin-bottom: 1em;
+}
