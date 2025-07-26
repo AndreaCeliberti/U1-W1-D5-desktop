@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 * {
   box-sizing: border-box;
-  text-align: center;
   line-height: 1.5;
 }
 body {
@@ -19,8 +18,7 @@ header {
   text-align: left;
   padding-left: 3em;
 }
-main {
-}
+
 header div img {
   height: 3rem;
 }
@@ -31,6 +29,7 @@ nav {
   background-size: 100%;
   padding-bottom: 5em;
   padding-top: 5em;
+  text-align: center;
 }
 nav h1 {
   font-family: "Montserrat", sans-serif;
@@ -57,8 +56,23 @@ nav button {
   padding: 1em;
   padding-inline: 2em;
 }
+main {
+  display: inline-flex;
+  width: 100%;
+  padding-bottom: 6em;
+  padding-top: 6em;
+}
 main div img {
   border-radius: 50%;
+}
+.radiuspc {
+  width: 682px;
+  text-align: right;
+  padding-right: 4em;
+  padding-top: 2em;
+}
+.skill {
+  width: 682px;
 }
 main div h2 {
   font-family: "Montserrat", sans-serif;
@@ -67,42 +81,45 @@ main div h2 {
   padding-bottom: 0.5em;
   color: #25a2c3;
   line-height: 1;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 main div p {
   font-size: 1.3em;
   padding-inline: 3em;
   line-height: 1.5;
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
 }
 section {
   background-color: #d8381c;
   height: 25em;
   color: white;
+  text-align: center;
 }
 section h3 {
-  font-size: 2.7em;
+  font-size: 1.7em;
   font-weight: bold;
   padding-bottom: 0.5em;
   color: #ffffff;
   line-height: 1;
-  padding-top: 1.8em;
+  padding-top: 3.8em;
 }
 .comment {
   color: #ffffff;
-  font-size: 1.4em;
+  font-size: 1.8em;
   line-height: 1.5;
-  padding-top: 2em;
+  padding-top: 1em;
   font-style: italic;
 }
 .mario {
-  font-size: 2em;
+  font-size: 1em;
   color: #ffffff;
   line-height: 1;
-  padding-top: 2em;
+  padding-top: 3em;
 }
 .ceo {
   margin-bottom: 1.5em;
+  font-size: 11px;
+  padding-top: 1em;
 }
 article {
   align-items: center;
